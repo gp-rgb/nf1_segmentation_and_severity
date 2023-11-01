@@ -18,7 +18,7 @@ double_pass = False # whether to run the algorithm twice at 32 and 64 patch size
 patch_size = 32
 patch_step_single_pass = 0.5
 sam_checkpoint_path = "./sam_vith_model.pth"
-num_images = 10#int(input("How Many Images to Process: "))
+num_images = 10
 
 """ Stage 1: SAM
     - Importing SAM
